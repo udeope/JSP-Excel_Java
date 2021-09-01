@@ -10,4 +10,9 @@ public class Conversiones {
         SimpleDateFormat formateador = new SimpleDateFormat(FORMATO_FECHA);
         return formateador.format(fecha);
     }
+    
+     public static String format(String fecha){
+        SimpleDateFormat formateador = new SimpleDateFormat(FORMATO_FECHA);
+        return formateador.format(fecha);
+    }
 }
